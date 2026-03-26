@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-primary: #1a569d; /* Logo Blue */
+  --color-secondary: #b21f2d; /* Logo Red */
+  --color-accent: #64748b; /* Slate Gray for a more modern feel */
+  
+  --color-surface: #f8fafc; /* Light slate background */
+  --color-ink: #0f172a; /* Deep slate for text */
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-white text-ink antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight text-slate-900;
+  }
+}

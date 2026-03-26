@@ -1,0 +1,7 @@
+{
+  "name": "Autocom Systems - Nakuru IT Solutions",
+  "description": "Nakuru's Leading IT & Hardware Solutions Provider.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
