@@ -58,11 +58,11 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Placeholder for Google Map */}
+            {/* Placeholder for Map */}
             <div className="w-full h-64 bg-slate-100 rounded-3xl overflow-hidden relative border border-slate-200">
               <div className="absolute inset-0 flex items-center justify-center flex-col gap-2 p-8 text-center">
                 <MapPin size={48} className="text-slate-300" />
-                <p className="text-slate-400 font-medium">Interactive Google Map of Biashara Street, Nakuru would be embedded here.</p>
+                <p className="text-slate-400 font-medium">Interactive Map of Biashara Street, Nakuru would be embedded here.</p>
               </div>
             </div>
           </motion.div>
